@@ -1,5 +1,5 @@
 {
-    "name": "hpromero/ApiEjercicio1",
+    "name": "hpromero/api-ejercicio1",
     "type": "package",
     "description": "Ejercicio 1 Tarea 5, Api para acceso a base de datos MySQL",
     "require": {

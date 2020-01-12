@@ -2,15 +2,16 @@
     "name": "hpromero/api-ejercicio1",
     "type": "package",
     "description": "Ejercicio 1 Tarea 5, Api para acceso a base de datos MySQL",
+    
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector Pacheco"
+        }
+    ],
     "require": {
         "php": "^5.3.3 || ^7.0"
     },
-    "license": "mit",
-    "authors": [
-        {
-            "name": "Héctor Pacheco"
-        }
-    ],
     "require-dev": {
         "ext-intl": "*",
         "phpunit/phpunit": "^4.8.35 || ^5.7",
@@ -20,5 +21,9 @@
         "psr-4": {
             "hpromero\\ApiEjercicio1\\": "src/"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
+    
 }
